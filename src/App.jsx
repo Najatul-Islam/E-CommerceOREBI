@@ -6,6 +6,7 @@ import Shop from './components/pages/Shop';
 import About from './components/pages/About';
 import Contacts from './components/pages/Contacts';
 
+
 function App() {
   
   return (

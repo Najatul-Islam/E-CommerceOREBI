@@ -44,15 +44,15 @@ const Header = () => {
       <Container>
         <Flex className={"justify-between"}>
           <div className="">
-            <h1 className="flex items-center gap-x-2.5 font-dm text-[14px] text-[#262626]"><HiMenuAlt1 />Shop by Category</h1>
+            <h1 className="flex items-center gap-x-2.5 font-dm text-[14px] text-[#262626]"><HiMenuAlt1 className="text-[25px] stroke-1"/>Shop by Category</h1>
           </div>
           <div className="">
             <input type="text" placeholder="Search Products" className="bg-white text-[#C4C4C4] text-[14px] font-dm py-4 px-[220px] text-start outline-0 relative"/><FaSearch className={" absolute left-[970px] top-[100px]"}/>
           </div>
-          <div className="flex items-center gap-x-2">
+          <div className="flex items-center gap-x-1">
             <FaUser /> <FaCaretDown />
-            <FaShoppingCart />
-          </div>
+            <div className="flex items-center ml-10"><FaShoppingCart /></div>
+             </div>
         </Flex>
       </Container>
      </div>
