@@ -12,7 +12,7 @@ const Products = ({productImg,badgeText,proTitle,proPrice}) => {
   return (
     <>
       <Container>
-        <div className="relative group">
+        <div className="relative group mx-3">
             <Image src={productImg} className={"w-full"}/>
             <Badge badgeTxT={badgeText} className={"absolute top-5 left-5"}/>
         <div className="">
