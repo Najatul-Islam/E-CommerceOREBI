@@ -50,6 +50,9 @@ const Header = () => {
               <li className="text-[#767676] text-[14px] font-dm hover:text-black hover:font-bold">
                 <Link to={"/contacts"}>Contacts</Link>
               </li>
+              <li className="text-[#767676] text-[14px] font-dm hover:text-black hover:font-bold">
+                <Link to={"/journal"}>Journal</Link>
+              </li>
             </ul>
          </div>
         </Flex>
